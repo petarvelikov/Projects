@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8" />
+    <title>Български филми</title>
+    <meta name="description" content="Каталог на български филми" />
+    <meta name="keywords" content="каталог, български, филми" />
+    <meta name="author" content="Petar Velikov" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="libs/bootstrap.css" />
+    <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/css.css" />
+</head>
+<body ng-app="bgFilmsCatalog">
+
+    <header>
+        <nav id="my-menu" class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">БГ Каталог</a>
+                </div>
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="#/films">
+                                <span class="fa fa-home fa-fw"></span>
+                                &nbsp;
+                                Каталог на български филми
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="panel-body" ng-view></section>
+
+    <footer class="panel-footer" ng-controller="FooterCtrl">
+        <h4 class="text-center">
+            <strong>
+                <em>
+                    &copy; {{ footer }}
+                </em>
+            </strong>
+        </h4>
+    </footer>
+
+    <script src="libs/jquery-1.11.1.min.js"></script>
+    <script src="libs/bootstrap.min.js"></script>
+    <script src="libs/angular.min.js"></script>
+    <script src="libs/angular-route.min.js"></script>
+    <script src="js/bgFilmsCatalog.js"></script>
+    <script src="js/controllers.js"></script>
+
+</body>
+</html>

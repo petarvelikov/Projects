@@ -1,0 +1,89 @@
+<div class="row text-center jumbotron">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center"><strong><em>{{ film.title | uppercase }}</em></strong></h1>
+        </div>
+    </div>
+    <div class="row jumbotron">
+        <div class="col-md-4">
+            <img class="img-responsive img-rounded" ng-src="{{ film.images[0] }}" alt="{{ film.title }} - снимка" />
+        </div>
+        <div class="col-md-8 text-justify">
+            <dl class="row">
+                <dt class="col-md-3">
+                    <em>Режисьор:</em>
+                </dt>
+                <dd class="col-md-9">
+                    {{ film.director }}
+                </dd>
+            </dl>
+            <dl class="row">
+                <dt class="col-md-3">
+                    <em>Година:</em>
+                </dt>
+                <dd class="col-md-9">
+                    {{ film.year }}
+                </dd>
+            </dl>
+            <dl class="row">
+                <dt class="col-md-3">
+                    <em>Продължителност:</em>
+                </dt>
+                <dd class="col-md-9">
+                    {{ film.duration }}
+                </dd>
+            </dl>
+            <dl class="row">
+                <dt class="col-md-3">
+                    <em>Жанр:</em>
+                </dt>
+                <dd class="col-md-9">
+                    {{ film.genre }}
+                </dd>
+            </dl>
+            <dl class="row">
+                <dt class="col-md-3">
+                    <em>В ролите:</em>
+                </dt>
+                <dd class="col-md-9">
+                    {{ film.cast }}
+                </dd>
+            </dl>
+            <dl class="row">
+                <dt class="col-md-3">
+                    <em>Резюме:</em>
+                </dt>
+                <dd class="col-md-9">
+                    {{ film.summary }}
+                </dd>
+            </dl>
+            <div class="row text-center">
+                <div class="col-md-12 list-group-item active">
+                    <strong><em>Снимки от филма:</em></strong>
+                </div>
+                <div>
+                    <div class="col-md-3 other-film-image">
+                        <a class="zoom-img-link basic" ng-href="{{ film.images[1] }}">
+                            <img class="img-thumbnail img-rounded img-responsive" ng-src="{{ film.images[1] }}" alt="{{ film.title }}"/>
+                        </a>
+                    </div>
+                    <div class="col-md-3 other-film-image">
+                        <a class="zoom-img-link" ng-href="{{ film.images[2] }}">
+                            <img class="img-thumbnail img-rounded img-responsive" ng-src="{{ film.images[2] }}" alt="{{ film.title }}"/>
+                        </a>
+                    </div>
+                    <div class="col-md-3 other-film-image">
+                        <a class="zoom-img-link" ng-href="{{ film.images[3] }}">
+                            <img class="img-thumbnail img-rounded img-responsive" ng-src="{{ film.images[3] }}" alt="{{ film.title }}"/>
+                        </a>
+                    </div>
+                    <div class="col-md-3 other-film-image">
+                        <a class="zoom-img-link" ng-href="{{ film.images[4] }}">
+                            <img class="img-thumbnail img-rounded img-responsive" ng-src="{{ film.images[4] }}" alt="{{ film.title }}"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

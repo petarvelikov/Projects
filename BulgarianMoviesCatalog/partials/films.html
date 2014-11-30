@@ -1,0 +1,40 @@
+<div class="row text-center jumbotron">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="h1">Български филми</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2">
+            <span class="fa fa-search fa-3x"></span>
+        </div>
+        <div class="col-md-8">
+            <form>
+                <input id="search" class="form-control col-lg-8 text-center" type="text" ng-model="searchTitle" placeholder="Търси от всички български филми" autocomplete="on" />
+            </form>
+        </div>
+        <div class="col-md-2">
+            <span class="fa fa-search fa-3x"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <ul id="films-box" class="list-unstyled">
+                <li class="list-films film-box" ng-repeat="film in films | filter: searchTitle | orderBy: 'title'">
+                    <a ng-href="#/films/{{ film.id }}" title="{{ film.title }}">
+                        <div class="col-md-12">
+                            <div class="row film-image-box">
+                                <img class="img-rounded" ng-src="{{ film.image }}" alt="{{ film.title }} - снимка"/>
+                            </div>
+                            <div class="row">
+                                <h5 class="film-box-title">{{ film.title }}</h5>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

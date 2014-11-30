@@ -1,0 +1,77 @@
+[
+    {
+        "id": "sledite-ostavat",
+        "title": "Следите остават",
+        "image": "img/films/sledite-ostavat.jpg"
+    },
+    {
+        "id": "voinata-na-taralejite",
+        "title": "Войната на таралежите",
+        "image": "img/films/voinata-na-taralejite.jpg"
+    },
+    {
+        "id": "imalo-edno-vreme-na-iztok",
+        "title": "Имало едно време на Изток",
+        "image": "img/films/imalo-edno-vreme-na-iztok.jpg"
+    },
+    {
+        "id": "trimata-ot-zapasa",
+        "title": "Тримата от запаса",
+        "image": "img/films/trimata-ot-zapasa.jpg"
+    },
+    {
+        "id": "koravi-starcheta",
+        "title": "Корави старчета",
+        "image": "img/films/koravi-starcheta.jpg"
+    },
+    {
+        "id": "kit",
+        "title": "Кит",
+        "image": "img/films/kit.jpg"
+    },
+    {
+        "id": "lubimec-13",
+        "title": "Любимец 13",
+        "image": "img/films/lubimec-13.jpg"
+    },
+    {
+        "id": "kombina",
+        "title": "Комбина",
+        "image": "img/films/kombina.jpg"
+    },
+    {
+        "id": "vchera",
+        "title": "Вчера",
+        "image": "img/films/vchera.jpg"
+    },
+    {
+        "id": "ritzar-bez-bronya",
+        "title": "Рицар без броня",
+        "image": "img/films/ritzar-bez-bronya.jpg"
+    },
+    {
+        "id": "vreme-razdelno-1",
+        "title": "Време Разделно - 1 част - Заплахата",
+        "image": "img/films/vreme-razdelno.jpg"
+    },
+    {
+        "id": "vreme-razdelno-2",
+        "title": "Време Разделно - 2 част - Насилието",
+        "image": "img/films/vreme-razdelno.jpg"
+    },
+    {
+        "id": "s-deca-na-more",
+        "title": "С деца на море",
+        "image": "img/films/s-deca-na-more.jpg"
+    },
+    {
+        "id": "gospodin-za-edin-den",
+        "title": "Господин за един ден",
+        "image": "img/films/gospodin-za-edin-den.jpg"
+    },
+    {
+        "id": "nai-dobriat-chovek-kogoto-poznavam",
+        "title": "Най-добрият човек, когото познавам",
+        "image": "img/films/nai-dobriat-chovek-kogoto-poznavam.jpg"
+    }
+]
