@@ -1,7 +1,7 @@
 'use strict';
 
 bgFilmsCatalog.controller('FooterCtrl', function FooterCtrl($scope) {
-    $scope.footer = 'Каталог на български филми. Петар Великов. Всички права запасени.';
+    $scope.footer = 'Каталог на български филми. Петър Великов.';
 });
 
 bgFilmsCatalog.controller('FilmListCtrl', function FilmListCtrl($scope, $http) {
